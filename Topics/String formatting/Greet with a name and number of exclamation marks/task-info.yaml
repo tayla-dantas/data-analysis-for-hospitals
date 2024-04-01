@@ -1,0 +1,19 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    text: "# The Python built-in function 'input' is used to read a line of text from\
+    \ standard input.\n\n# First we need to take the name as string from user input\n\
+    name = input()\n\n# Now, we need to take an integer representing the number of\
+    \ exclamation marks\nnum = int(input())\n\n# TODO: Now you need to print the greeting\
+    \ message using the name and the number of exclamation marks. \n# You need to\
+    \ use the String formatting techniques here. There are several ways to format\
+    \ strings in python, choose the one you are most comfortable with."
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/41370#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 20 Mar 2024 14:47:16 UTC"
+record: -1
+submission_language: python3

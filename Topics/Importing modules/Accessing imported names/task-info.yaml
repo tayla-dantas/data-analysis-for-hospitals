@@ -1,0 +1,23 @@
+type: matching
+captions:
+  - from super_module import super_function
+  - import super_module
+  - from super_module import foo
+options:
+  - There is no way to access super_function.
+  - super_function()
+  - super_module.super_function()
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6023#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2

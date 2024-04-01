@@ -1,0 +1,19 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    text: |-
+      import pandas as pd
+      
+      
+      def print_dim(df):
+          pass
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10941#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 05 Mar 2024 18:05:49 UTC"
+record: -1
+submission_language: python3.10

@@ -1,0 +1,22 @@
+<h2>snake_case</h2>
+<div class="step-text">
+<p></p><p>Since we are learning Python, sometimes it might be useful to convert text from lowerCamelCase to snake_case. The main trick is to find the correct place where to insert an underscore. Let's make a rule that an underscore should be inserted right before a capital letter, so lowerCamelCase would become lower_camel_case.</p><p>In order to create such a program you will simply need to traverse all the characters and print them one by one (or with an underscore in the right places). </p><p><strong>The input format:</strong></p><p>Read a word or a phrase written in lowerCamelCase</p><p><strong>The output format:</strong></p><p>Print out words in lowercase and separate them by underscores.</p><p><strong>Tip 1:</strong> The string method <code class="language-python">str.islower()</code>  might come in handy. It returns the <code class="language-python">True</code> value if the string entirely consists of lowercase letters, and <code class="language-python">False</code> otherwise. For example:</p><pre><code class="language-python">print("A".islower())
+# False
+print("a".islower())
+# True
+print("aA".islower())
+# False</code></pre><p>You can also use the string method <code class="language-python">lower()</code> to convert all the letters in the string to lowercase.</p><pre><code class="language-python">print("lowerCamelCase".lower())
+# "lowercamelcase"</code></pre><p><strong>Tip 2:</strong> As you already know, <code class="language-python">print</code> function outputs an empty line (<code class="language-python">\n</code>) at the end, so printing characters in a loop one by one would look something like this: </p><pre><code class="language-python">for i in 'Hello':
+    print(i)
+
+# -------- OUTPUT ---------
+H
+e
+l
+l
+o</code></pre><p>In order to fix that, you need to explicitly set the end argument to an empty string, like so:</p><pre><code class="language-python">for i in 'Hello':
+    print(i, end='')
+
+# -------- OUTPUT ---------
+Hello</code></pre><p>Now all the characters are printed without extra empty lines.</p><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">python</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">python</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">parselTongue</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">parsel_tongue</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+</div>

@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - A feature with three unique values (&lt;10% of <code>NaN</code>s)
+  - A numerical feature with outliers (7% of <code>NaN</code>s)
+  - "A numerical feature with values in range [10, 20] (15% of <code>NaN</code>s)"
+  - A categorical feature with 80% missing values
+options:
+  - Median
+  - Average
+  - Delete the whole column
+  - Mode
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17156#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

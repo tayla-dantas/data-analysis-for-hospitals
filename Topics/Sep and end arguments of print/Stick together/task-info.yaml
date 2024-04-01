@@ -1,0 +1,15 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    text: |-
+      numbers = [int(x) for x in input().split()]
+      # print all numbers without spaces
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7460#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 22 Feb 2024 22:10:55 UTC"
+record: -1
+submission_language: python3

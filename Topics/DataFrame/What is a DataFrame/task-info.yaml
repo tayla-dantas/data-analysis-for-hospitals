@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: DataFrame represents tabular data.
+  - text: Each column of a DataFrame is a Series.
+  - text: Rows of a DataFrame are labeled.
+  - text: You can easily load data into a DataFrame from various data formats.
+  - text: "All columns in a DataFrame must be of the same fundamental data type (e.g.,\
+    \ only strings, or only integers, etc)."
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10934#comment
+status: Solved
+record: -1
+custom_name: What is a DataFrame?
+local_check: false

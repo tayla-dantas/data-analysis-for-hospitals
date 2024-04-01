@@ -1,0 +1,22 @@
+content:
+  - For loop
+  - Importing modules
+  - "Loop control  break, continue, pass"
+  - Methods and attributes
+  - Escape sequences
+  - Splitting strings and joining lists
+  - Dictionary
+  - Sep and end arguments of print
+  - DataFrame
+  - Modifying a DataFrame
+  - Combining Data in Pandas
+  - Reading data in pandas
+  - .loc   .iloc
+  - Summarizing numeric columns
+  - Grouping and aggregating data in pandas
+  - Working with missing values
+  - Handling missing values
+  - Reshaping and Pivot Tables
+  - Summarizing categorical columns
+  - String formatting
+  - Intro to NumPy

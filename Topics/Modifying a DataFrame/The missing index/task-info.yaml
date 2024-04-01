@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "The dataframe will have the 99th row label missing, calling <code>.reset_index(drop=True,\
+    \ inplace=True)</code> will reset the index  "
+  - text: The index will not change
+  - text: "Internally, the 99th row label will be dropped at first, but since <code>inplace=True</code>,\
+    \ it will be reset automatically"
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/32556#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,20 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    text: |-
+      import pandas as pd
+      
+      
+      grades_2019 = pd.DataFrame({'Subject': ['Physics', 'Geometry', 'Chemistry'], 'Average': ['68', '78', '75']})
+      grades_2020 = pd.DataFrame({'Subject': ['Physics', 'Geometry', 'Chemistry'], 'Average': ['72', '80', '75']})
+      grades_union = ...
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12353#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 05 Mar 2024 19:33:26 UTC"
+record: -1
+submission_language: python3.10

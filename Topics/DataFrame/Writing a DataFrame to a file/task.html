@@ -1,0 +1,23 @@
+<h2>Writing a DataFrame to a file</h2>
+<div class="step-text">
+<p></p><p>Suppose you have a <code class="language-python">DataFrame</code> that looks like this:</p><pre><code class="language-no-highlight">+--------+---------------+-------------------+
+|        | Title         | Author            |
+|--------+---------------+-------------------|
+|   Year |               |                   |
+|--------+---------------+-------------------|
+|   1877 | Anna Karenina | Leo Tolstoy       |
+|   1815 | Emma          | Jane Austen       |
+|   1860 | Little Women  | Louisa May Alcott |
+|   1847 | Jane Eyre     | Charlotte Brontë  |
++--------+---------------+-------------------+</code></pre><p>Note that <code class="language-python">Year</code> is an index, not an ordinary column. Which of the following options will save this <code class="language-python">DataFrame</code> to a <em>books.csv</em> file that looks like this:</p><pre><code class="language-no-highlight">Year,Title
+1877,Anna Karenina
+1815,Emma
+1868,Little Women
+1847,Jane Eyre</code></pre><p>Select the correct answer.</p><p>You can try various options with the following starter code:</p><pre><code class="language-python">import pandas as pd
+
+books = pd.DataFrame({'Year': [1877, 1815, 1860, 1847],
+                   'Title': ['Anna Karenina', 'Emma', 'Little Women', 'Jane Eyre'],
+                   'Author': ['Leo Tolstoy', 'Jane Austen', 'Louisa May Alcott', 'Charlotte Brontë']})
+
+books.set_index('Year', inplace=True)</code></pre>
+</div>

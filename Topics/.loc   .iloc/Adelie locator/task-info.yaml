@@ -1,0 +1,12 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    text: "# put your code here. The data frame is already loaded and stored as penguins_df.\
+    \ \n\nprint()"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/13350#comment
+status: Solved
+record: -1
+submission_language: python3
